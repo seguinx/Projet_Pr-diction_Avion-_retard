@@ -1,0 +1,27 @@
+artifact_path: mlflow-artifacts:/1/models/m-1e9d71f4170849d9b5561fad091134f7/artifacts
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.17.2
+model_id: m-1e9d71f4170849d9b5561fad091134f7
+model_size_bytes: 1262
+model_uuid: m-1e9d71f4170849d9b5561fad091134f7
+prompts: null
+run_id: 0447130255c944f494dcbd8bd17a9b5a
+signature:
+  inputs: '[{"type": "long", "name": "CRSDepTime", "required": true}, {"type": "double",
+    "name": "Distance", "required": true}, {"type": "long", "name": "Year", "required":
+    true}, {"type": "long", "name": "Month", "required": true}, {"type": "long", "name":
+    "DayofMonth", "required": true}, {"type": "long", "name": "DayOfWeek", "required":
+    true}, {"type": "long", "name": "Flight_Number_Marketing_Airline", "required":
+    true}, {"type": "long", "name": "CRSArrTime", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    8]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-29 01:03:10.713039'
