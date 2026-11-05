@@ -1,0 +1,58 @@
+{
+  "system": {
+    "package_version": "1.2.0",
+    "script": "export_run.py",
+    "export_time": 1793848470,
+    "_export_time": "2026-11-05 03:14:30",
+    "mlflow_version": "3.17.2",
+    "mlflow_tracking_uri": "http://127.0.0.1:5001",
+    "platform": {
+      "python_version": "3.13.14",
+      "system": "Windows",
+      "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+    },
+    "user": "segui"
+  },
+  "mlflow": {
+    "info": {
+      "run_id": "0447130255c944f494dcbd8bd17a9b5a",
+      "experiment_id": "1",
+      "user_id": "segui",
+      "status": "FINISHED",
+      "start_time": 1793235775690,
+      "end_time": 1793235813396,
+      "lifecycle_stage": "active",
+      "artifact_uri": "mlflow-artifacts:/1/0447130255c944f494dcbd8bd17a9b5a/artifacts",
+      "run_name": "gentle-flea-112",
+      "_start_time": "2026-10-28 21:02:56",
+      "_end_time": "2026-10-28 21:03:33"
+    },
+    "params": {
+      "memory": "None",
+      "steps": "[('imputer', SimpleImputer(strategy='median')), ('standardiser', StandardScaler())]",
+      "transform_input": "None",
+      "verbose": "False",
+      "imputer": "SimpleImputer(strategy='median')",
+      "standardiser": "StandardScaler()",
+      "imputer__add_indicator": "False",
+      "imputer__copy": "True",
+      "imputer__fill_value": "None",
+      "imputer__keep_empty_features": "False",
+      "imputer__missing_values": "nan",
+      "imputer__strategy": "median",
+      "standardiser__copy": "True",
+      "standardiser__with_mean": "True",
+      "standardiser__with_std": "True"
+    },
+    "metrics": {},
+    "tags": {
+      "estimator_class": "sklearn.pipeline.Pipeline",
+      "estimator_name": "Pipeline",
+      "mlflow.autologging": "sklearn",
+      "mlflow.runName": "gentle-flea-112",
+      "mlflow.source.name": "Entrainement_model.ipynb",
+      "mlflow.source.type": "NOTEBOOK",
+      "mlflow.user": "segui"
+    }
+  }
+}

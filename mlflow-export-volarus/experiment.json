@@ -1,0 +1,71 @@
+{
+  "system": {
+    "package_version": "1.2.0",
+    "script": "export_experiment.py",
+    "export_time": 1793848470,
+    "_export_time": "2026-11-05 03:14:30",
+    "mlflow_version": "3.17.2",
+    "mlflow_tracking_uri": "http://127.0.0.1:5001",
+    "platform": {
+      "python_version": "3.13.14",
+      "system": "Windows",
+      "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+    },
+    "user": "segui"
+  },
+  "info": {
+    "num_total_runs": 31,
+    "num_ok_runs": 31,
+    "num_failed_runs": 0,
+    "failed_runs": []
+  },
+  "mlflow": {
+    "experiment": {
+      "experiment_id": "1",
+      "name": "Volarus - Retards de vols",
+      "artifact_location": "mlflow-artifacts:/1",
+      "lifecycle_stage": "active",
+      "tags": {},
+      "creation_time": 1793234986460,
+      "last_update_time": 1793234986460,
+      "workspace": "default",
+      "trace_location": null,
+      "effective_trace_archival_retention": null,
+      "_creation_time": "2026-10-28 20:49:46",
+      "_last_update_time": "2026-10-28 20:49:46"
+    },
+    "runs": [
+      "e16816a1028e42ee9c721609ecf8c2e2",
+      "936b7adf201449e3bf0c3c2849433d18",
+      "a6e0446972384124b979f47a4190ea04",
+      "4453726837ad4ba48c94848d4ef6a3c9",
+      "eec68bc97c974ecd8f36f049b8a2cbb5",
+      "7286413f3f62416f9326d56e026d858a",
+      "d4f42e9c7224424b95af13e9ba52e83f",
+      "6595e08427e84de7ba838c62b334e862",
+      "0a23c18cab8847e4800c706b62394fc4",
+      "a25330c7301246108a7636437a508a7a",
+      "57dc9f125b5a478eb6a1628f6d5e38fa",
+      "77c54295de0b4b2b9887826a74579187",
+      "ae75681b993c426dbd728ff1a8359d17",
+      "2233bc8920bf4aa79c28ba68d8381a46",
+      "4e8dfec1c8f04f0fb6807b7137e75889",
+      "d9cfa097071d441baa473209f9112863",
+      "8b21522f154d4aa7a4a8ce1b13f60a7d",
+      "1647483b787f48a9b4df5eac52cfa714",
+      "2ffe516a4449412bae9761b3a23c8bc7",
+      "3cd829f32cac47568302aa3021a0a1bd",
+      "d98c7c80addd4fc6a1f0a12763f80700",
+      "935999af5615409a93acc7e8acd25b4e",
+      "74474848642e4be6a7a2ec85098d94e3",
+      "9643d9a504fb42948bfee83465b75f21",
+      "2373aebd69dd4e7a8615ade02bb71f58",
+      "8477d00c2ace4b11b834ce605246ecfd",
+      "0447130255c944f494dcbd8bd17a9b5a",
+      "0bd57bfb00dd47459e7f072f110abd16",
+      "a75c55792a78486ba28cf7acce764740",
+      "0f8018c7bcb84c9dbbfe81651c06e7f1",
+      "a9f0a5cd5cf94dffb3bdd7943d5a8cef"
+    ]
+  }
+}

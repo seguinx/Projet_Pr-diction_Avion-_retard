@@ -1,0 +1,87 @@
+{
+  "system": {
+    "package_version": "1.2.0",
+    "script": "export_run.py",
+    "export_time": 1793848470,
+    "_export_time": "2026-11-05 03:14:30",
+    "mlflow_version": "3.17.2",
+    "mlflow_tracking_uri": "http://127.0.0.1:5001",
+    "platform": {
+      "python_version": "3.13.14",
+      "system": "Windows",
+      "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+    },
+    "user": "segui"
+  },
+  "mlflow": {
+    "info": {
+      "run_id": "4453726837ad4ba48c94848d4ef6a3c9",
+      "experiment_id": "1",
+      "user_id": "segui",
+      "status": "FINISHED",
+      "start_time": 1793266740928,
+      "end_time": 1793266741034,
+      "lifecycle_stage": "active",
+      "artifact_uri": "mlflow-artifacts:/1/4453726837ad4ba48c94848d4ef6a3c9/artifacts",
+      "run_name": "\u00c9valuation Fin - Arbre de d\u00e9cision",
+      "_start_time": "2026-10-29 05:39:01",
+      "_end_time": "2026-10-29 05:39:01"
+    },
+    "params": {
+      "echantillon": "Fin",
+      "modele": "Arbre de d\u00e9cision"
+    },
+    "metrics": {
+      "Accuracy": [
+        {
+          "value": 0.6029,
+          "timestamp": 1793266741006,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "Precision": [
+        {
+          "value": 0.1810081127809549,
+          "timestamp": 1793266741006,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "Recall": [
+        {
+          "value": 0.4327503974562798,
+          "timestamp": 1793266741006,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "F1-score": [
+        {
+          "value": 0.25525131282820707,
+          "timestamp": 1793266741006,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ]
+    },
+    "tags": {
+      "mlflow.runName": "\u00c9valuation Fin - Arbre de d\u00e9cision",
+      "mlflow.source.name": "Entrainement_model.ipynb",
+      "mlflow.source.type": "NOTEBOOK",
+      "mlflow.user": "segui"
+    }
+  }
+}

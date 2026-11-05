@@ -1,0 +1,179 @@
+{
+  "system": {
+    "package_version": "1.2.0",
+    "script": "export_run.py",
+    "export_time": 1793848470,
+    "_export_time": "2026-11-05 03:14:30",
+    "mlflow_version": "3.17.2",
+    "mlflow_tracking_uri": "http://127.0.0.1:5001",
+    "platform": {
+      "python_version": "3.13.14",
+      "system": "Windows",
+      "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+    },
+    "user": "segui"
+  },
+  "mlflow": {
+    "info": {
+      "run_id": "2ffe516a4449412bae9761b3a23c8bc7",
+      "experiment_id": "1",
+      "user_id": "segui",
+      "status": "FINISHED",
+      "start_time": 1793242643925,
+      "end_time": 1793242672054,
+      "lifecycle_stage": "active",
+      "artifact_uri": "mlflow-artifacts:/1/2ffe516a4449412bae9761b3a23c8bc7/artifacts",
+      "run_name": "D\u00e9but - Arbre de d\u00e9cision",
+      "_start_time": "2026-10-28 22:57:24",
+      "_end_time": "2026-10-28 22:57:52"
+    },
+    "params": {
+      "echantillon": "D\u00e9but",
+      "modele": "Arbre de d\u00e9cision",
+      "ccp_alpha": "0.0",
+      "class_weight": "balanced",
+      "criterion": "gini",
+      "max_depth": "15",
+      "max_features": "None",
+      "max_leaf_nodes": "None",
+      "min_impurity_decrease": "0.0",
+      "min_samples_leaf": "1",
+      "min_samples_split": "2",
+      "min_weight_fraction_leaf": "0.0",
+      "monotonic_cst": "None",
+      "random_state": "42",
+      "splitter": "best"
+    },
+    "metrics": {
+      "training_precision_score": [
+        {
+          "value": 0.8496601816150392,
+          "timestamp": 1793242658838,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_recall_score": [
+        {
+          "value": 0.7789125,
+          "timestamp": 1793242658838,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_f1_score": [
+        {
+          "value": 0.7981626769553732,
+          "timestamp": 1793242658838,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_accuracy_score": [
+        {
+          "value": 0.7789125,
+          "timestamp": 1793242658838,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_log_loss": [
+        {
+          "value": 0.4228854652305942,
+          "timestamp": 1793242658838,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_roc_auc": [
+        {
+          "value": 0.8826721034666207,
+          "timestamp": 1793242658838,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_score": [
+        {
+          "value": 0.7789125,
+          "timestamp": 1793242659797,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "accuracy_score_X_test_debut": [
+        {
+          "value": 0.6517,
+          "timestamp": 1793266630149,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "precision_score_X_test_debut": [
+        {
+          "value": 0.32896976043984816,
+          "timestamp": 1793266630219,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "recall_score_X_test_debut": [
+        {
+          "value": 0.5773030094187916,
+          "timestamp": 1793266630303,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "f1_score_X_test_debut": [
+        {
+          "value": 0.41911274182788527,
+          "timestamp": 1793266630383,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ]
+    },
+    "tags": {
+      "estimator_class": "sklearn.tree._classes.DecisionTreeClassifier",
+      "estimator_name": "DecisionTreeClassifier",
+      "mlflow.runName": "D\u00e9but - Arbre de d\u00e9cision",
+      "mlflow.source.name": "Entrainement_model.ipynb",
+      "mlflow.source.type": "NOTEBOOK",
+      "mlflow.user": "segui"
+    }
+  }
+}

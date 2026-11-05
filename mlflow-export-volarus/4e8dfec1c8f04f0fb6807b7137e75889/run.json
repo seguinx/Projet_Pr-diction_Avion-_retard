@@ -1,0 +1,181 @@
+{
+  "system": {
+    "package_version": "1.2.0",
+    "script": "export_run.py",
+    "export_time": 1793848470,
+    "_export_time": "2026-11-05 03:14:30",
+    "mlflow_version": "3.17.2",
+    "mlflow_tracking_uri": "http://127.0.0.1:5001",
+    "platform": {
+      "python_version": "3.13.14",
+      "system": "Windows",
+      "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+    },
+    "user": "segui"
+  },
+  "mlflow": {
+    "info": {
+      "run_id": "4e8dfec1c8f04f0fb6807b7137e75889",
+      "experiment_id": "1",
+      "user_id": "segui",
+      "status": "FINISHED",
+      "start_time": 1793245285351,
+      "end_time": 1793245311384,
+      "lifecycle_stage": "active",
+      "artifact_uri": "mlflow-artifacts:/1/4e8dfec1c8f04f0fb6807b7137e75889/artifacts",
+      "run_name": "Fin - R\u00e9gression logistique",
+      "_start_time": "2026-10-28 23:41:25",
+      "_end_time": "2026-10-28 23:41:51"
+    },
+    "params": {
+      "echantillon": "Fin",
+      "modele": "R\u00e9gression logistique",
+      "C": "1.0",
+      "class_weight": "balanced",
+      "dual": "False",
+      "fit_intercept": "True",
+      "intercept_scaling": "1",
+      "l1_ratio": "None",
+      "max_iter": "3000",
+      "multi_class": "deprecated",
+      "n_jobs": "None",
+      "penalty": "l2",
+      "random_state": "None",
+      "solver": "lbfgs",
+      "tol": "0.0001",
+      "verbose": "0",
+      "warm_start": "False"
+    },
+    "metrics": {
+      "training_precision_score": [
+        {
+          "value": 0.7735468989369132,
+          "timestamp": 1793245297745,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_recall_score": [
+        {
+          "value": 0.5937125,
+          "timestamp": 1793245297745,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_f1_score": [
+        {
+          "value": 0.6449328598175013,
+          "timestamp": 1793245297745,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_accuracy_score": [
+        {
+          "value": 0.5937125,
+          "timestamp": 1793245297745,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_log_loss": [
+        {
+          "value": 0.6629783293939543,
+          "timestamp": 1793245297745,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_roc_auc": [
+        {
+          "value": 0.6401465570359004,
+          "timestamp": 1793245297745,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_score": [
+        {
+          "value": 0.5937125,
+          "timestamp": 1793245298813,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "accuracy_score_X_test_fin": [
+        {
+          "value": 0.55745,
+          "timestamp": 1793266739994,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "precision_score_X_test_fin": [
+        {
+          "value": 0.18523830538393646,
+          "timestamp": 1793266740093,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "recall_score_X_test_fin": [
+        {
+          "value": 0.5338632750397456,
+          "timestamp": 1793266740219,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "f1_score_X_test_fin": [
+        {
+          "value": 0.2750430010647883,
+          "timestamp": 1793266740332,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ]
+    },
+    "tags": {
+      "estimator_class": "sklearn.linear_model._logistic.LogisticRegression",
+      "estimator_name": "LogisticRegression",
+      "mlflow.runName": "Fin - R\u00e9gression logistique",
+      "mlflow.source.name": "Entrainement_model.ipynb",
+      "mlflow.source.type": "NOTEBOOK",
+      "mlflow.user": "segui"
+    }
+  }
+}

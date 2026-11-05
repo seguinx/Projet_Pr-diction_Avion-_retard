@@ -1,0 +1,87 @@
+{
+  "system": {
+    "package_version": "1.2.0",
+    "script": "export_run.py",
+    "export_time": 1793848470,
+    "_export_time": "2026-11-05 03:14:30",
+    "mlflow_version": "3.17.2",
+    "mlflow_tracking_uri": "http://127.0.0.1:5001",
+    "platform": {
+      "python_version": "3.13.14",
+      "system": "Windows",
+      "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+    },
+    "user": "segui"
+  },
+  "mlflow": {
+    "info": {
+      "run_id": "a25330c7301246108a7636437a508a7a",
+      "experiment_id": "1",
+      "user_id": "segui",
+      "status": "FINISHED",
+      "start_time": 1793266629813,
+      "end_time": 1793266629950,
+      "lifecycle_stage": "active",
+      "artifact_uri": "mlflow-artifacts:/1/a25330c7301246108a7636437a508a7a/artifacts",
+      "run_name": "\u00c9valuation D\u00e9but - R\u00e9gression logistique",
+      "_start_time": "2026-10-29 05:37:10",
+      "_end_time": "2026-10-29 05:37:10"
+    },
+    "params": {
+      "echantillon": "D\u00e9but",
+      "modele": "R\u00e9gression logistique"
+    },
+    "metrics": {
+      "Accuracy": [
+        {
+          "value": 0.6315,
+          "timestamp": 1793266629915,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "Precision": [
+        {
+          "value": 0.2889324191968658,
+          "timestamp": 1793266629915,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "Recall": [
+        {
+          "value": 0.47438548127728003,
+          "timestamp": 1793266629915,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "F1-score": [
+        {
+          "value": 0.3591304347826087,
+          "timestamp": 1793266629915,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ]
+    },
+    "tags": {
+      "mlflow.runName": "\u00c9valuation D\u00e9but - R\u00e9gression logistique",
+      "mlflow.source.name": "Entrainement_model.ipynb",
+      "mlflow.source.type": "NOTEBOOK",
+      "mlflow.user": "segui"
+    }
+  }
+}

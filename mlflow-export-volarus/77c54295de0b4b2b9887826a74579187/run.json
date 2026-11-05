@@ -1,0 +1,156 @@
+{
+  "system": {
+    "package_version": "1.2.0",
+    "script": "export_run.py",
+    "export_time": 1793848470,
+    "_export_time": "2026-11-05 03:14:30",
+    "mlflow_version": "3.17.2",
+    "mlflow_tracking_uri": "http://127.0.0.1:5001",
+    "platform": {
+      "python_version": "3.13.14",
+      "system": "Windows",
+      "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+    },
+    "user": "segui"
+  },
+  "mlflow": {
+    "info": {
+      "run_id": "77c54295de0b4b2b9887826a74579187",
+      "experiment_id": "1",
+      "user_id": "segui",
+      "status": "FINISHED",
+      "start_time": 1793245368831,
+      "end_time": 1793245396245,
+      "lifecycle_stage": "active",
+      "artifact_uri": "mlflow-artifacts:/1/77c54295de0b4b2b9887826a74579187/artifacts",
+      "run_name": "Fin - SVM",
+      "_start_time": "2026-10-28 23:42:49",
+      "_end_time": "2026-10-28 23:43:16"
+    },
+    "params": {
+      "echantillon": "Fin",
+      "modele": "SVM",
+      "C": "1.0",
+      "class_weight": "balanced",
+      "dual": "auto",
+      "fit_intercept": "True",
+      "intercept_scaling": "1",
+      "loss": "squared_hinge",
+      "max_iter": "2000",
+      "multi_class": "ovr",
+      "penalty": "l2",
+      "random_state": "42",
+      "tol": "0.0001",
+      "verbose": "0"
+    },
+    "metrics": {
+      "training_precision_score": [
+        {
+          "value": 0.7737283286279677,
+          "timestamp": 1793245382908,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_recall_score": [
+        {
+          "value": 0.592925,
+          "timestamp": 1793245382908,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_f1_score": [
+        {
+          "value": 0.644252917182875,
+          "timestamp": 1793245382908,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_accuracy_score": [
+        {
+          "value": 0.592925,
+          "timestamp": 1793245382908,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_score": [
+        {
+          "value": 0.592925,
+          "timestamp": 1793245383673,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "accuracy_score_X_test_fin": [
+        {
+          "value": 0.5563,
+          "timestamp": 1793266741749,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "precision_score_X_test_fin": [
+        {
+          "value": 0.18511597229855997,
+          "timestamp": 1793266741811,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "recall_score_X_test_fin": [
+        {
+          "value": 0.5354531001589825,
+          "timestamp": 1793266741877,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "f1_score_X_test_fin": [
+        {
+          "value": 0.27511844469857866,
+          "timestamp": 1793266741944,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ]
+    },
+    "tags": {
+      "estimator_class": "sklearn.svm._classes.LinearSVC",
+      "estimator_name": "LinearSVC",
+      "mlflow.runName": "Fin - SVM",
+      "mlflow.source.name": "Entrainement_model.ipynb",
+      "mlflow.source.type": "NOTEBOOK",
+      "mlflow.user": "segui"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "system": {
+    "package_version": "1.2.0",
+    "script": "export_run.py",
+    "export_time": 1793848470,
+    "_export_time": "2026-11-05 03:14:30",
+    "mlflow_version": "3.17.2",
+    "mlflow_tracking_uri": "http://127.0.0.1:5001",
+    "platform": {
+      "python_version": "3.13.14",
+      "system": "Windows",
+      "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+    },
+    "user": "segui"
+  },
+  "mlflow": {
+    "info": {
+      "run_id": "d9cfa097071d441baa473209f9112863",
+      "experiment_id": "1",
+      "user_id": "segui",
+      "status": "FINISHED",
+      "start_time": 1793242728541,
+      "end_time": 1793245285283,
+      "lifecycle_stage": "active",
+      "artifact_uri": "mlflow-artifacts:/1/d9cfa097071d441baa473209f9112863/artifacts",
+      "run_name": "D\u00e9but - KNN",
+      "_start_time": "2026-10-28 22:58:49",
+      "_end_time": "2026-10-28 23:41:25"
+    },
+    "params": {
+      "echantillon": "D\u00e9but",
+      "modele": "KNN",
+      "algorithm": "auto",
+      "leaf_size": "30",
+      "metric": "minkowski",
+      "metric_params": "None",
+      "n_jobs": "-1",
+      "n_neighbors": "5",
+      "p": "2",
+      "weights": "uniform"
+    },
+    "metrics": {
+      "training_precision_score": [
+        {
+          "value": 0.8067087173796613,
+          "timestamp": 1793243581577,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_recall_score": [
+        {
+          "value": 0.82915,
+          "timestamp": 1793243581577,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_f1_score": [
+        {
+          "value": 0.79684861972226,
+          "timestamp": 1793243581577,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_accuracy_score": [
+        {
+          "value": 0.82915,
+          "timestamp": 1793243581577,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_log_loss": [
+        {
+          "value": 0.3500993481207498,
+          "timestamp": 1793243581577,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_roc_auc": [
+        {
+          "value": 0.8327251995271453,
+          "timestamp": 1793243581577,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_score": [
+        {
+          "value": 0.82915,
+          "timestamp": 1793245270345,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "accuracy_score_X_test_debut": [
+        {
+          "value": 0.75705,
+          "timestamp": 1793266739499,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "precision_score_X_test_debut": [
+        {
+          "value": 0.3044822256568779,
+          "timestamp": 1793266739567,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "recall_score_X_test_debut": [
+        {
+          "value": 0.0905122903744544,
+          "timestamp": 1793266739619,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "f1_score_X_test_debut": [
+        {
+          "value": 0.13954312024083584,
+          "timestamp": 1793266739672,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ]
+    },
+    "tags": {
+      "estimator_class": "sklearn.neighbors._classification.KNeighborsClassifier",
+      "estimator_name": "KNeighborsClassifier",
+      "mlflow.runName": "D\u00e9but - KNN",
+      "mlflow.source.name": "Entrainement_model.ipynb",
+      "mlflow.source.type": "NOTEBOOK",
+      "mlflow.user": "segui"
+    }
+  }
+}

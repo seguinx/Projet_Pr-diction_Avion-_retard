@@ -1,0 +1,87 @@
+{
+  "system": {
+    "package_version": "1.2.0",
+    "script": "export_run.py",
+    "export_time": 1793848470,
+    "_export_time": "2026-11-05 03:14:30",
+    "mlflow_version": "3.17.2",
+    "mlflow_tracking_uri": "http://127.0.0.1:5001",
+    "platform": {
+      "python_version": "3.13.14",
+      "system": "Windows",
+      "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+    },
+    "user": "segui"
+  },
+  "mlflow": {
+    "info": {
+      "run_id": "a6e0446972384124b979f47a4190ea04",
+      "experiment_id": "1",
+      "user_id": "segui",
+      "status": "FINISHED",
+      "start_time": 1793266741498,
+      "end_time": 1793266741605,
+      "lifecycle_stage": "active",
+      "artifact_uri": "mlflow-artifacts:/1/a6e0446972384124b979f47a4190ea04/artifacts",
+      "run_name": "\u00c9valuation Fin - Random Forest",
+      "_start_time": "2026-10-29 05:39:01",
+      "_end_time": "2026-10-29 05:39:02"
+    },
+    "params": {
+      "echantillon": "Fin",
+      "modele": "Random Forest"
+    },
+    "metrics": {
+      "Accuracy": [
+        {
+          "value": 0.5747,
+          "timestamp": 1793266741572,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "Precision": [
+        {
+          "value": 0.1929904936433398,
+          "timestamp": 1793266741572,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "Recall": [
+        {
+          "value": 0.5357710651828299,
+          "timestamp": 1793266741572,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "F1-score": [
+        {
+          "value": 0.28376557763556753,
+          "timestamp": 1793266741572,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ]
+    },
+    "tags": {
+      "mlflow.runName": "\u00c9valuation Fin - Random Forest",
+      "mlflow.source.name": "Entrainement_model.ipynb",
+      "mlflow.source.type": "NOTEBOOK",
+      "mlflow.user": "segui"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "system": {
+    "package_version": "1.2.0",
+    "script": "export_run.py",
+    "export_time": 1793848470,
+    "_export_time": "2026-11-05 03:14:30",
+    "mlflow_version": "3.17.2",
+    "mlflow_tracking_uri": "http://127.0.0.1:5001",
+    "platform": {
+      "python_version": "3.13.14",
+      "system": "Windows",
+      "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+    },
+    "user": "segui"
+  },
+  "mlflow": {
+    "info": {
+      "run_id": "7286413f3f62416f9326d56e026d858a",
+      "experiment_id": "1",
+      "user_id": "segui",
+      "status": "FINISHED",
+      "start_time": 1793266739731,
+      "end_time": 1793266739847,
+      "lifecycle_stage": "active",
+      "artifact_uri": "mlflow-artifacts:/1/7286413f3f62416f9326d56e026d858a/artifacts",
+      "run_name": "\u00c9valuation D\u00e9but - KNN",
+      "_start_time": "2026-10-29 05:39:00",
+      "_end_time": "2026-10-29 05:39:00"
+    },
+    "params": {
+      "echantillon": "D\u00e9but",
+      "modele": "KNN"
+    },
+    "metrics": {
+      "Accuracy": [
+        {
+          "value": 0.75705,
+          "timestamp": 1793266739816,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "Precision": [
+        {
+          "value": 0.3044822256568779,
+          "timestamp": 1793266739816,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "Recall": [
+        {
+          "value": 0.0905122903744544,
+          "timestamp": 1793266739816,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "F1-score": [
+        {
+          "value": 0.13954312024083584,
+          "timestamp": 1793266739816,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ]
+    },
+    "tags": {
+      "mlflow.runName": "\u00c9valuation D\u00e9but - KNN",
+      "mlflow.source.name": "Entrainement_model.ipynb",
+      "mlflow.source.type": "NOTEBOOK",
+      "mlflow.user": "segui"
+    }
+  }
+}

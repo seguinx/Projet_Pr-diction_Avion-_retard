@@ -1,0 +1,141 @@
+{
+  "system": {
+    "package_version": "1.2.0",
+    "script": "export_run.py",
+    "export_time": 1793848470,
+    "_export_time": "2026-11-05 03:14:30",
+    "mlflow_version": "3.17.2",
+    "mlflow_tracking_uri": "http://127.0.0.1:5001",
+    "platform": {
+      "python_version": "3.13.14",
+      "system": "Windows",
+      "processor": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel"
+    },
+    "user": "segui"
+  },
+  "mlflow": {
+    "info": {
+      "run_id": "74474848642e4be6a7a2ec85098d94e3",
+      "experiment_id": "1",
+      "user_id": "segui",
+      "status": "FINISHED",
+      "start_time": 1793235991557,
+      "end_time": 1793236054888,
+      "lifecycle_stage": "active",
+      "artifact_uri": "mlflow-artifacts:/1/74474848642e4be6a7a2ec85098d94e3/artifacts",
+      "run_name": "D\u00e9but - Random Forest",
+      "_start_time": "2026-10-28 21:06:32",
+      "_end_time": "2026-10-28 21:07:35"
+    },
+    "params": {
+      "echantillon": "D\u00e9but",
+      "modele": "Random Forest",
+      "bootstrap": "True",
+      "ccp_alpha": "0.0",
+      "class_weight": "balanced",
+      "criterion": "gini",
+      "max_depth": "15",
+      "max_features": "sqrt",
+      "max_leaf_nodes": "None",
+      "max_samples": "None",
+      "min_impurity_decrease": "0.0",
+      "min_samples_leaf": "10",
+      "min_samples_split": "2",
+      "min_weight_fraction_leaf": "0.0",
+      "monotonic_cst": "None",
+      "n_estimators": "50",
+      "n_jobs": "-1",
+      "oob_score": "False",
+      "random_state": "42",
+      "verbose": "0",
+      "warm_start": "False"
+    },
+    "metrics": {
+      "training_precision_score": [
+        {
+          "value": 0.7726230276717714,
+          "timestamp": 1793236022512,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_recall_score": [
+        {
+          "value": 0.6589125,
+          "timestamp": 1793236022512,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_f1_score": [
+        {
+          "value": 0.6927486566123654,
+          "timestamp": 1793236022512,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_accuracy_score": [
+        {
+          "value": 0.6589125,
+          "timestamp": 1793236022512,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_log_loss": [
+        {
+          "value": 0.6489836211024682,
+          "timestamp": 1793236022512,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_roc_auc": [
+        {
+          "value": 0.7086438671681127,
+          "timestamp": 1793236022512,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ],
+      "training_score": [
+        {
+          "value": 0.6589125,
+          "timestamp": 1793236026020,
+          "step": 0,
+          "model_id": null,
+          "dataset_name": null,
+          "dataset_digest": null,
+          "run_id": null
+        }
+      ]
+    },
+    "tags": {
+      "estimator_class": "sklearn.ensemble._forest.RandomForestClassifier",
+      "estimator_name": "RandomForestClassifier",
+      "mlflow.runName": "D\u00e9but - Random Forest",
+      "mlflow.source.name": "Entrainement_model.ipynb",
+      "mlflow.source.type": "NOTEBOOK",
+      "mlflow.user": "segui"
+    }
+  }
+}
