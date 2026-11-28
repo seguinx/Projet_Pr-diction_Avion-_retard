@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volarus | Flight Intelligence</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #17243a;
+        }
+
+        header {
+            background: #10243e;
+            color: white;
+            padding: 24px 8%;
+        }
+
+        .logo {
+            font-size: 27px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            color: #39b8db;
+        }
+
+        main {
+            max-width: 850px;
+            margin: 65px auto;
+            padding: 0 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .intro h1 {
+            font-size: 36px;
+            margin-bottom: 12px;
+        }
+
+        .intro p {
+            color: #64748b;
+            line-height: 1.6;
+        }
+
+        .form-card {
+            background: white;
+            padding: 35px;
+            border-radius: 14px;
+            box-shadow: 0 8px 30px rgba(20, 40, 70, 0.08);
+        }
+
+        .form-card h2 {
+            margin-bottom: 25px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 13px;
+            border: 1px solid #d5deea;
+            border-radius: 7px;
+            font-size: 15px;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 28px;
+            padding: 15px;
+            border: none;
+            border-radius: 7px;
+            background: #087eaa;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #066487;
+        }
+
+        .result {
+            display: none;
+            margin-top: 25px;
+            padding: 20px;
+            border-radius: 8px;
+            background: #edf6fa;
+            line-height: 1.7;
+        }
+
+        footer {
+            text-align: center;
+            color: #8491a3;
+            padding: 30px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .intro h1 {
+                font-size: 28px;
+            }
+
+            .form-card {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">VOLA<span>RUS</span></div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Flight Intelligence</h1>
+            <p>
+                Predict flight delays using artificial intelligence.
+                Get insights before your journey begins.
+            </p>
+        </section>
+
+        <section class="form-card">
+            <h2>Flight Information</h2>
+
+            <div class="form-grid">
+                <div>
+                    <label for="origin">Origin Airport</label>
+                    <input id="origin" placeholder="e.g. DFW">
+                </div>
+
+                <div>
+                    <label for="dest">Destination Airport</label>
+                    <input id="dest" placeholder="e.g. ORD">
+                </div>
+            </div>
+
+            <button type="button" onclick="alert('Prediction form coming next!')">
+                Predict Flight Delay
+            </button>
+
+            <div class="result" id="result"></div>
+        </section>
+    </main>
+
+    <footer>
+        Volarus © 2026 — AI Flight Delay Prediction
+    </footer>
+
+</body>
+</html>

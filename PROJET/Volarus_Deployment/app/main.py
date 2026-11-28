@@ -5,12 +5,19 @@ import joblib
 import pandas as pd
 
 from app.schemas import FlightInput
+from fastapi.responses import FileResponse
 
 app = FastAPI(
     title="Volarus API",
     description="API de prédiction des retards de vols",
     version="1.0.0"
 )
+
+@app.get("/")
+def home():
+    return FileResponse(
+        Path(__file__).parent / "static" / "index.html"
+    )
 
 # Chargement du modèle depuis les fichiers locaux
 MODEL_DIR = Path(__file__).resolve().parent.parent / "models"
